@@ -4,7 +4,7 @@ alert('ext src')
 
 
 "strongly typed language   VS     weekly typed language "
-typed means the data type  ! ! 
+// typed means the data type  ! ! 
 
 
 
@@ -31,6 +31,6 @@ typed means the data type  ! !
 //      but in weekly typed languages the pointers or the le values dont have a a data type 
 
 
-oy
+// oy
 
 // statically vs dynamically typed laguages ! ! 
