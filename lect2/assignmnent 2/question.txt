@@ -1,0 +1,15 @@
+create a web page  which should be the admission page of an educational institute 
+
+
+logo of collage 
+
+
+information about courses 
+
+
+form at the bottom  to take different information 
+
+collage admission form and run wild with the assignment full  
+
+
+everything with relative links ! !  
