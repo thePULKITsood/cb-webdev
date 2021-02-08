@@ -1,8 +1,82 @@
 /* css reset  */
 
 body {
+    font-family: "Baloo Bhai 2", cursive;
     margin: 0px;
     padding: 0px;
+    color: teal;
+    background: no-repeat url(/project\ -\ gym\ website/img/bg2.jpg);
+}
+.left {
+    border: 5px solid red;
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.mid {
+    border: 5px solid rgb(0, 255, 13);
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+}
+.right {
+    border: 5px solid rgb(17, 0, 255);
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+}
+.navbar {
+    display: inline-block;
+}
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+}
 
-    background: url("media/bg.jpg") repeat-y;
+.navbar li a {
+    color: brown;
+    text-decoration: none;
+    padding: 20px 15px;
+    font-size: 35px;
+}
+.navbar li a:hover,
+.navbar li a.active {
+    color: grey;
+    text-decoration: underline;
+    padding: 20px 15px;
+}
+
+.left img {
+    width: 173px;
+    /* filter: invert(); */
+}
+.left div {
+    text-align: center;
+    line-height: 56px;
+    font-size: 30px;
+}
+
+.btn {
+    margin: 0px 9px;
+    background-color: brown;
+    color: azure;
+    padding: 4px 14px;
+    font-size: 25px;
+    border: 2px solid sandybrown;
+    border-radius: 10px;
+
+    font-family: "Baloo Bhai 2", cursive;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: rgb(63, 94, 151);
+}
+.container {
+    margin: 175px 200px;
+    padding: 75px;
+    width: 50%;
+    border-radius: 150px;
+    border: 5px solid white;
 }
