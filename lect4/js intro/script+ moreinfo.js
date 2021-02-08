@@ -34,3 +34,12 @@ alert('ext src')
 // oy
 
 // statically vs dynamically typed laguages ! ! 
+
+// in statically typed languages the errors can be chaecked at compile time  if iam using some wrong 
+// data type for a function or something that dosnt work with that data type 
+
+
+// in dynamically typed language i there can be run time errors but compile time pe it can pass 
+
+
+java script == weekly + dianamically typed language 

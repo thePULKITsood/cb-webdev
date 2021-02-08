@@ -1,7 +1,10 @@
 {
-    "files.autoSave": "afterDelay",
+    "files.autoSave": "afterDelay"
+    ,
     "cmake.configureOnOpen": false,
+    "editor.formatOnSave": true,
     "cSpell.words": [
         "parallelly"
     ]
 }
+
