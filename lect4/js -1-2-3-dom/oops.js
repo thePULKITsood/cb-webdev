@@ -51,7 +51,7 @@ var apple=
 
 
 // classes are special functions 
-// class declaration  
+// class declaration   (not hoisted )
 class FruitClass{
 
     constructor(taste,color)
@@ -64,6 +64,8 @@ class FruitClass{
 
 //class expression - antohter way of defining th eclass 
 // taking a variable and trying ti map it to a class name 
+
+(not hoisted )
 let FruitClass2=class{
     constructor(taste,color)
     {

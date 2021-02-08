@@ -1,4 +1,7 @@
 {
     "files.autoSave": "afterDelay",
-    "cmake.configureOnOpen": false
+    "cmake.configureOnOpen": false,
+    "cSpell.words": [
+        "parallelly"
+    ]
 }
