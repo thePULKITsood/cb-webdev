@@ -31,6 +31,6 @@ typed means the data type  ! !
 //      but in weekly typed languages the pointers or the le values dont have a a data type 
 
 
-
+oy
 
 // statically vs dynamically typed laguages ! ! 
