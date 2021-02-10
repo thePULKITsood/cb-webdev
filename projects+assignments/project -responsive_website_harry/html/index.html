@@ -9,7 +9,8 @@
             rel="stylesheet"
             href="/project -responsive_website_harry/css/styles.css"
         />
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
+
+        <link rel="stylesheet" media="screen and (max-width: 1017px)" href="../css/phone.css">
         <link
             href="https://fonts.googleapis.com/css2?family=Baloo+Paaji+2&family=Bree+Serif&display=swap"
             rel="stylesheet"
@@ -82,20 +83,65 @@
         </section>
 
         <section id="client-section">
-
             <h1 class="h-primary center">Our Clients</h1>
 
             <div id="clients">
-
                 <div class="client-item">
-
                     <img src="" alt="client1" />
                     <img src="" alt="client1" />
                     <img src="" alt="client1" />
                     <img src="" alt="client1" />
-
                 </div>
             </div>
         </section>
+        <section id="contact">
+            <h1 class="h-primary center">Contact Us</h1>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Enter your name"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email: </label>
+                        <input
+                            type="email"
+                            name="name"
+                            id="email"
+                            placeholder="Enter your email"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number: </label>
+                        <input
+                            type="phone"
+                            name="name"
+                            id="phone"
+                            placeholder="Enter your phone"
+                        />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message: </label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            cols="30"
+                            rows="10"
+                        ></textarea>
+                    </div>
+                </form>
+            </div>
+        </section>
+        
+        <footer>
+            <div class="center">
+                Copyright &copy; www.PukiMeal.com. All rights reserved!
+            </div>
+        </footer>
     </body>
 </html>
