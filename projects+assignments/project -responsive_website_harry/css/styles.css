@@ -31,6 +31,8 @@
 #navbar {
     position: absolute;
     top: 0px;
+    align-items: center;
+    position: sticky;
 }
 #navbar ul {
     display: flex;
